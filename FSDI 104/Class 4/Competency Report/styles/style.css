@@ -82,3 +82,29 @@ div.input-container label{
     padding: 0.5rem;
  
 }
+
+.pets-table{
+    margin: 1rem auto;
+}
+
+.alert-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#alert{
+    background-color: rgb(31, 20, 185);
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+    width: 30rem;
+    padding: .5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.highlight{
+    border: 2px solid rgb(8, 0, 0);
+    background-color: rgb(212, 44, 44);
+}

@@ -32,6 +32,10 @@
                 <input type="number" id="petAge">
             </div>
             <div class="input-container">
+                <label>Color:</label>
+                <input type="number" id="petColor">
+            </div>
+            <div class="input-container">
                 <label>Gender:</label>
                 <input type="text" id="petGender">
             </div>
@@ -56,14 +60,22 @@
                 <label>Phone:</label>
                 <input type="text" id="ownerPhone">
             </div>
+            <div class="alert-section">
+                <button class="btn btn-register">Register</button>
+                <p class="hide" id="alert">A pet was registered!</p>
+            </div>
 
-            <button class="btn btn-register" onclick="register();">Register</button>
         </div>
 
         <!--------div id="pets" class="container">
             
         </div>---->
 
+        <div class="search-container container">
+                <input type="search" id="searchInput">
+                <button class="btn btn-search">Search</button>
+
+        </div>
         <table class ="pets-table table table-striped container">
             ...
         
@@ -71,6 +83,7 @@
                 <tr>
                     <th>Name</th>
                     <th>Age</th>
+                    <th>Color</th>
                     <th>Gender</th>
                     <th>Breed</th>
                     <th>Service</th>

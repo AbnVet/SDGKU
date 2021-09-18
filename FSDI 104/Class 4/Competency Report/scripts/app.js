@@ -44,7 +44,7 @@ saloon.pets.push(tweety)
 // getting tha values from the inputs
 var txtName=document.getElementById('petName');
 var txtAge=document.getElementById('petAge');
-var txtColor=document.getElementById('petcolor')
+var txtColor=document.getElementById('petColor')
 var txtGender=document.getElementById('petGender');
 var txtBreed=document.getElementById('petBreed');
 var txtService=document.getElementById('petService');
@@ -55,7 +55,7 @@ var txtPhone=document.getElementById('ownerPhone');
 function register(){
 
     if(txtName.value!="" && txtPhone.value!=""){
-        var thePet = new Pet(txtName.value,txtAge.value,txtGender.value,txtBreed.value,txtService.value,txtOwner.value,txtPhone.value);
+        var thePet = new Pet(txtName.value,txtAge.value,txtColor.value,txtGender.value,txtBreed.value,txtService.value,txtOwner.value,txtPhone.value);
         console.log(thePet);
         saloon.pets.push(thePet);
         clear();

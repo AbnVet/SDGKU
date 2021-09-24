@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+:root {
+    --nav-background: rgb(133, 14, 14);
+    --nav-text:#f0f0f0;
+    --nav-primary: #080bc2;
+    --nav-secondary: rgb(134, 132, 148);
+}
+
+
+nav {
+    background-color: var(--nav-background);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu-items {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+nav .menu-items li {
+    display: inline-block;
+    align-items: center;
+}
+
+nav .menu-items li a {
+    color: var(--nav-text);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    transition: all 0.2s ease;
+    
+}
+
+nav .menu-items li a:hover {
+    color: var(--nav-primary);
+}
+
+nav .menu-items li.active a{
+    color: var(--nav-text);
+    background-color: var(--nav-primary);
+    padding: 9px 12px;
+    border-radius: 14px;
+}
+
+nav .menu-info label {
+    color:var(--nav-text);
+    background-color: var(--nav-secondary);
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}

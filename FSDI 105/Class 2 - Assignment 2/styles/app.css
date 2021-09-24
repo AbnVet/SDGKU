@@ -1,0 +1,95 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    background-color: #8f8a8a;
+}
+
+h1 {color: rgb(180, 16, 16);}
+
+
+.control {
+    padding: 5px 10px;
+}
+
+.control label {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+
+.control input,
+.control select{
+display: inline-block;
+width: 150px;
+padding: 4px 7px;
+margin-left: 5px;
+}
+
+.control select {
+    width: 167px;
+}
+
+#btnSave {
+    display: inline-block;
+    padding: .7em 1.4em;
+    border-radius: .15em;
+    box-sizing: .15em;
+    background-color: #080bc2;
+    color: white;
+    margin-top: 1em;
+    position: relative;
+    margin-left: 10em;
+    
+    }
+
+.alert-error {
+    border: 1px solid #f5c6cb;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px 15px;
+}
+
+.password-error {
+    margin: 10px 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.capture-form h3{
+    font-size: 20px;
+}
+
+#btnSave:hover{
+    background-color: rgb(180, 16, 16);
+}
+
+.userTable th {
+    background-color:#080bc2;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.userTable tr,td {
+    padding-top: 0;
+    
+    border-bottom: 1px solid #ddd;
+}
+
+.userTable tbody tr:nth-child(odd) {
+    background-color: lightgray;
+    border-spacing: 0px;
+}
+
+.userTable tbody tr:hover {
+    background-color: #0095ff;
+
+}

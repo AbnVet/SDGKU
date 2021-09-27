@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSDI 105: Register Users</title>
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="users.html">List Users</a></li>
+            <li class="active"><a href="register.html">Register User</a></li>
+        </ul>
+        <div class="menu-info">
+            <label>3 users</label>
+        </div>
+    </nav>
+
+
+
+    <h1>Register a new user into the system.</h1>
+
+    <div class="capture-form">
+        <div id="alertError" class="password-error alert-error hide">Error</div>
+
+        <h3 id="hForm">User Information</h3>
+
+
+        <div class="control">
+            <label>Email</label>
+            <input id="txtEmail" type="email" required minlength="1">
+        </div>
+    
+        <div class="control">
+            <label>Password</label>
+            <input id="txtPassword" type="password">
+
+        </div>
+
+        <div class="control">
+            <label>First Name</label>
+            <input id="txtFirst" type="text">
+        </div>
+
+        <div class="control">
+            <label>Last Name</label>
+            <input id="txtLast" type="text">
+        </div>
+
+        <div class="control">
+            <label>Age</label>
+            <input id="txtAge" type="number">
+        </div>
+
+        <div class="control">
+            <label>Address</label>
+            <input id="txtAddress" type="text">
+        </div>
+
+        <div class="control">
+            <label>Phone Number</label>
+            <input id="txtPhone" type="tel">
+        </div>
+
+        <div class="control">
+            <label>Payment</label>
+            <select id="selPayment">
+                <option>Paypal</option>
+                <option>Check</option>
+                <option>Cash</option>
+                <option>Venmo</option>
+            </select>
+        </div>
+
+        <div class="control">
+            <label>Color</label>
+            <input id="selColor" type="color">
+        </div>
+
+        <div class="control">
+            <button id="btnSave">Register User</button>
+        </div>
+    </div>
+
+      
+     
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--  <script src=".js"></script>  -->
+    <script src="scripts/storageManager.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
+
+
+

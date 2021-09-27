@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 2 - Assignment 2</title>
+    <title>FSDI 105: Competency Report</title>
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/app.css">
 </head>
 <body>
+    <header>
     <nav>
         <ul class="menu-items">
             <li class="active"><a href="index.html">Home</a></li>
@@ -19,10 +20,34 @@
             <label>3 users</label>
         </div>
     </nav>
-    <h1> Login to the system!!</h1>
+    </header>
+    <main class="loginPage">
+    <h1> Login to our amazing system</h1>
+
+    <div id="loginForm" class="login-container">
+        <h3>Member Login</h3>
+
+        <div id="alertError" class="password-error alert-error hide">
+            Invalid credentials. Please verify.
+        </div>
+        <input id="txtEmail" type="text" class="control" placeholder="email">
+        <input id="txtPassword" type="password" class="control" placeholder="password">
+        <button id="btnLogin">Login</button>
+    </div>
+
+    <div id="logoutForm" class="login-container">
+        <h5 id="hEmail">PUT USER EMAIL HERE</h5>
+        <h5 id="hName">PUT FIRST LAST HERE</h5>
+
+        <button id="btnLogOut" class = "btn-dark">Logout</button>
+    </div>
+</main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/storageManager.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/login.js"></script>
 </body>
 </html>
+
+
+

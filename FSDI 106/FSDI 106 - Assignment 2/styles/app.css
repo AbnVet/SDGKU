@@ -1,0 +1,88 @@
+/* Style for FSDI 106 */
+main{
+    background-color: rgb(190, 199, 199);
+}
+h1 {
+    color: rgb(8, 10, 8);
+}
+
+.hide{
+    display: none;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+#list {
+    flex:2;
+}
+
+#capture-form {
+    flex: 1;
+}
+
+.category-flex {
+    display: flex;
+}
+
+#txtCategory {
+    margin-left: 7px;
+}
+
+#iImportant {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#iImportant.far {
+    color: rgb(70, 68, 68);
+}
+
+#iImportant.fas {
+    color: #eeea10;
+    font-size: 1.2rem;
+}
+
+.control {
+text-align: left;
+margin-left: 1rem;
+
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(159, 211, 18);
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: rgb(233, 227, 227);
+
+}
+.task#title {
+    color: orange;
+}
+
+ #pendingTasks#title {
+    color: rgb(209, 53, 14);
+}
+
+
+.task i,
+.task button {
+    
+    flex: 1;
+}
+
+.task i {
+    color: #a01111;
+}
+
+.task .location,
+.task .due-date {
+    flex: 3;
+}
+
+.task .description {
+    flex: 3;
+}
